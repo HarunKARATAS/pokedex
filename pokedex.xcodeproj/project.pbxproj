@@ -14,6 +14,7 @@
 		0461878D1DE823D700FA89D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0461878B1DE823D700FA89D9 /* LaunchScreen.storyboard */; };
 		046187981DE823D700FA89D9 /* pokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046187971DE823D700FA89D9 /* pokedexTests.swift */; };
 		046187A31DE823D700FA89D9 /* pokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046187A21DE823D700FA89D9 /* pokedexUITests.swift */; };
+		046187B11DE82B7700FA89D9 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 046187B01DE82B7700FA89D9 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0461879E1DE823D700FA89D9 /* pokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046187A21DE823D700FA89D9 /* pokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedexUITests.swift; sourceTree = "<group>"; };
 		046187A41DE823D700FA89D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046187B01DE82B7700FA89D9 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		046187811DE823D700FA89D9 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				046187B01DE82B7700FA89D9 /* pokemon.csv */,
 				046187821DE823D700FA89D9 /* AppDelegate.swift */,
 				046187841DE823D700FA89D9 /* ViewController.swift */,
 				046187861DE823D700FA89D9 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				0461878D1DE823D700FA89D9 /* LaunchScreen.storyboard in Resources */,
 				0461878A1DE823D700FA89D9 /* Assets.xcassets in Resources */,
+				046187B11DE82B7700FA89D9 /* pokemon.csv in Resources */,
 				046187881DE823D700FA89D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
